@@ -1,0 +1,291 @@
+.page {
+  width: 1280px;
+  height: 10000px;
+  border: 3px solid red;
+  margin: auto;
+  background: #2a2c2f;
+  font-family: "Inter", sans-serif;
+}
+.header {
+  width: 1184px;
+  height: 52px;
+  border: 2px solid yellow;
+  margin: auto;
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_language {
+  border: 1px solid orange;
+}
+
+.header_ru {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.header_en {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.lead {
+  width: 984px;
+  height: 1005px;
+  border: 2px solid yellow;
+  margin: auto;
+  margin-top: 56px;
+  margin-bottom: 92px;
+}
+
+.lead__title {
+  width: 720px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  color: white;
+  border: 1px solid orange;
+  margin: auto;
+  text-align: center;
+}
+
+.lead__subtitle {
+  width: 640px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+  border: 1px solid orange;
+  margin: auto;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  border: 1px solid orange;
+  background: url("images/lead.png");
+  position: relative;
+}
+
+.lead__image-map {
+  position: absolute;
+  top: 90.21px;
+  left: 23.27px;
+}
+
+.lead__caption {
+  font-size: 10x;
+  font-weight: 300;
+  line-height: 14px;
+  color: white;
+  border: 1px solid orange;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.intro {
+  width: 690px;
+  height: 429px;
+  border: 2px solid yellow;
+  margin-left: 148px;
+}
+
+.intro__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  color: white;
+  margin: 0;
+}
+
+.intro__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 163%;
+  color: white;
+  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 33px;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.intro__list-item {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 18px;
+  color: white;
+}
+
+.span-accent {
+  font-weight: 400;
+}
+
+.photo-grid {
+  width: 1184px;
+  height: 671px;
+  border: 2px solid yellow;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 92px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.photo-grid__element {
+  width: 284px;
+  height: 213px;
+  border: 1px solid red;
+}
+
+.places {
+  width: 984px;
+  height: 3392px;
+  border: 2px solid yellow;
+  margin: auto;
+}
+
+.place {
+  width: 984px;
+  height: 660px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.place2 {
+  width: 984px;
+  height: 584px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.place__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  color: white;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.place__url {
+  margin-top: 106px;
+  margin-bottom: 48px;
+}
+
+.place2 .place__url {
+  margin-top: 30px;
+  margin-bottom: 48px;
+}
+
+.place__url-heading {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #aaaaaa;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.place__url-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  margin: 0;
+  text-underline-offset: 4px;
+}
+
+.place__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  color: white;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.cover {
+  width: 1184px;
+  height: 740px;
+  border: 2px solid yellow;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 92px;
+  background: url(images/cover.png);
+  background-size: cover;
+  position: relative;
+}
+
+.cover__overlay {
+  width: 1184px;
+  height: 740px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(42, 44, 47, 0.3);
+  z-index: 1;
+}
+
+.cover__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  color: white;
+  margin: 0;
+  margin: auto;
+  width: 560px;
+  text-align: center;
+  margin-top: 195px;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  margin: 0;
+  margin: auto;
+  width: 360px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.footer {
+  width: 1184px;
+  height: 18px;
+  border: 2px solid yellow;
+  margin-bottom: 24px;
+  margin: auto;
+}
