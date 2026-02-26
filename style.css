@@ -13,10 +13,6 @@
   align-items: center;
 }
 
-.header_language {
-  border: 1px solid orange;
-}
-
 .header_ru {
   color: white;
   background: none;
@@ -35,6 +31,12 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: capitalize;
+}
+
+.header_ru,
+.header_en {
+  transition: opacity 0.2s ease;
+  cursor: pointer;
 }
 
 .lead {
@@ -658,3 +660,4 @@
     margin-top: 48px;
   }
 }
+
